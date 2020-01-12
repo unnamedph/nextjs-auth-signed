@@ -1,0 +1,21 @@
+{
+  "name": "next-cookie-auth",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "next": "^7.0.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
